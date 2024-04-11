@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .left-section {
+            width: 75%;
+            background-color: #f0f0f0; /* Adjust as needed */
+            padding: 20px;
+        }
+        .right-section {
+            width: 25%;
+            padding: 20px;
+        }
+        .padding-section {
+            background-color: rgb(238, 96, 14); /* Adjust as needed */
+            padding: 20px;
+        }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+}
+        .head{
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        @media (min-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .left-section {
+                width: 100%;
+            }
+
+            .right-section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left section -->
+        <div class="left-section">
+            <div class="head">
+                <p>clearlydecoded&#47;<b>html&#45;css&#45;<br>javascript&#45;tutorial</b></p></div>
+                <p>Example code for HTML,CSS, and Javascript for<br>Web Developers Coursera Course</p>
+                <h2>Link to my github</h2><a href ="https://www.bing.com/ck/a?!&&p=e4330edf0a72c07cJmltdHM9MTcxMjc5MzYwMCZpZ3VpZD0xYWNiOGRkYy1hNTYzLTYzNzAtMGE1My05Y2RhYTRmODYyZjUmaW5zaWQ9NTIxNg&ptn=3&ver=2&hsh=3&fclid=1acb8ddc-a563-6370-0a53-9cdaa4f862f5&psq=github%2fclearlydecoded%2fhtml-css-javascript-tutorial&u=a1aHR0cHM6Ly9naXRodWIuY29tL2NsZWFybHlkZWNvZGVkL2h0bWwtY3NzLWphdmFzY3JpcHQtdHV0b3JpYWw&ntb=1">Welcome</a><br><br>
+            <nav>
+                <ul>
+                    <li><a href="https://github.com/issues">Issues</a></li>
+                    <li><a href="https://github.com/clearlydecoded/html-css-javascript-tutorial/forks">fork</a></li>
+                    <li><a href="https://github.com/clearlydecoded/html-css-javascript-tutorial/watchers">watching</a></li>
+                    <li><a href="https://github.com/clearlydecoded/html-css-javascript-tutorial/stargazers">stars</a></li>
+                </ul>
+            </nav>
+            <div class="readme">
+            <h3>Coursera&#13; HTML&#44; CSS and Javascript for Web Developers</h3>
+            <p>This repository contains all of the example source code used in the Coursera.org course called HTML, CSS and Javascript for Web Developers&#46;</p>
+            <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers">Enroll now</a>
+            <h3>Frequently Asked Questions</h3>
+            <p>Please check our FAQ to see if a question you want to ask on the forums has been answered already. Here is the link to the FAQ &#13;</p>
+            <a href="https://github.com/clearlydecoded/html-css-javascript-tutorial/blob/master/FAQ.md">FAQ</a>
+            </a>
+            <h3>Customer Website Launched</h3>
+            <p>As part of this course we developed a real website for a real client. Below is a link to the final product&#46;<br> (Note&#44; the site is left without speed optimization to keep it exactly as it was in the course. Site optimization wasn't part of the course)&#46;</p>
+            <a href="http://www.davidchuschinabistro.com/">Sample Website</a>
+            </a>
+        </div>
+
+        <!-- Right section -->
+        <div class="right-section">
+            <img src="website-removebg-preview.png" alt="Image Description">
+        </div>
+    </div>
+
+    <!-- Padding section -->
+    <div class="padding-section">
+    </div>
+</body>
+</html>
